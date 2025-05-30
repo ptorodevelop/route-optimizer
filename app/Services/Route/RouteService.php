@@ -17,6 +17,7 @@ class RouteService
             'C:\\Users\\pedro.toro\\AppData\\Local\\Programs\\Python\\Python314\\python.exe',
             base_path('christofides_solver.py')
         ]);
+
         $process->setInput($data);
         $process->run();
 
